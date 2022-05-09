@@ -98,6 +98,24 @@ public class TestRunner {
         if (verbose) System.out.println(new Object() {}.getClass().getEnclosingMethod().getName() + "(): SUCCESS");
     }
 
+    void L00049Test(Boolean verbose) {
+        L00049 test = new L00049();
+        List<List<String>> expected = new ArrayList<>() {{
+            add(Arrays.asList("bat"));
+            add(Arrays.asList("nat", "tan"));
+            add(Arrays.asList("ate", "eat", "tea"));
+        }};
+        List<List<String>> actual = test.groupAnagrams(new String[] { "eat", "tea", "tan", "ate", "nat", "bat" });
+        Assertions.assertTrue(expected.size() == actual.size());
+        Collections.sort(actual, (a, b) -> a.size() - b.size());
+        Collections.sort(actual, (a, b) -> a.size() - b.size());
+        for (int i = 0; i < expected.size(); i++)
+            Assertions.assertTrue(expected.get(i).size() == actual.get(i).size()
+                                  && expected.get(i).containsAll(actual.get(i))
+                                  && actual.get(i).containsAll(expected.get(i)));
+        if (verbose) System.out.println(new Object() {}.getClass().getEnclosingMethod().getName() + "(): SUCCESS");
+    }
+
     void L00054Test(Boolean verbose) {
         L00054 test = new L00054();
         Assertions.assertEquals(Arrays.asList(1, 2, 3, 6, 9, 8, 7, 4, 5), test.spiralOrder(new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } }));
@@ -115,6 +133,17 @@ public class TestRunner {
         expected = new int[][] { { 0, 0, 0, 0 }, { 0, 4, 5, 0 }, { 0, 3, 1, 0 } };
         test.setZeroes(matrix);
         Assertions.assertArrayEquals(expected, matrix);
+        if (verbose) System.out.println(new Object() {}.getClass().getEnclosingMethod().getName() + "(): SUCCESS");
+    }
+
+    void L00075Test(Boolean verbose) {
+        L00075 test = new L00075();
+        int[] before = new int[] { 2, 0, 2, 1, 1, 0 };
+        test.sortColors(before);
+        Assertions.assertArrayEquals(new int[] { 0, 0, 1, 1, 2, 2 }, before);
+        before = new int[] { 2, 0, 1 };
+        test.sortColors(before);
+        Assertions.assertArrayEquals(new int[] { 0, 1, 2 }, before);
         if (verbose) System.out.println(new Object() {}.getClass().getEnclosingMethod().getName() + "(): SUCCESS");
     }
 
@@ -397,6 +426,18 @@ public class TestRunner {
         Assertions.assertEquals(8, test.solution("abcabcdede"));
         Assertions.assertEquals(14, test.solution("abcabcabcabcdededededede"));
         Assertions.assertEquals(17, test.solution("xababcdcdababcdcd"));
+        if (verbose) System.out.println(new Object() {}.getClass().getEnclosingMethod().getName() + "(): SUCCESS");
+    }
+
+    void P64061Test(Boolean verbose) {
+        P64061 test = new P64061();
+        Assertions.assertEquals(4,
+            test.solution(new int[][]
+            { {0, 0, 0, 0, 0},
+              {0, 0, 1, 0, 3},
+              {0, 2, 5, 0, 1},
+              {4, 2, 4, 4, 2},
+              {3, 5, 1, 3, 1} }, new int[] { 1, 5, 3, 5, 1, 2, 1, 4 }));
         if (verbose) System.out.println(new Object() {}.getClass().getEnclosingMethod().getName() + "(): SUCCESS");
     }
 
@@ -751,8 +792,10 @@ public class TestRunner {
         testRunner.L00020Test(verbose);
         testRunner.L00026Test(verbose);
         testRunner.L00042Test(verbose);
+        testRunner.L00049Test(verbose);
         testRunner.L00054Test(verbose);
         testRunner.L00073Test(verbose);
+        testRunner.L00075Test(verbose);
         testRunner.L00079Test(verbose);
         testRunner.L00096Test(verbose);
         testRunner.L00118Test(verbose);
