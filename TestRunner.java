@@ -411,6 +411,18 @@ public class TestRunner {
         if (verbose) System.out.println(new Object() {}.getClass().getEnclosingMethod().getName() + "(): SUCCESS");
     }
 
+    void P64061Test(Boolean verbose) {
+        P64061 test = new P64061();
+        Assertions.assertEquals(4,
+            test.solution(new int[][]
+            { {0, 0, 0, 0, 0},
+              {0, 0, 1, 0, 3},
+              {0, 2, 5, 0, 1},
+              {4, 2, 4, 4, 2},
+              {3, 5, 1, 3, 1} }, new int[] { 1, 5, 3, 5, 1, 2, 1, 4 }));
+        if (verbose) System.out.println(new Object() {}.getClass().getEnclosingMethod().getName() + "(): SUCCESS");
+    }
+
     void P67257Test(Boolean verbose) {
         P67257 test = new P67257();
         Assertions.assertEquals(60420, test.solution("100-200*300-500+20"));
