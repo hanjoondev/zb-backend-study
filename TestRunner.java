@@ -768,7 +768,7 @@ public class TestRunner {
     }
 
     private ArrayList<String[]> mockInOutTestHelper(String filename) throws IOException {
-        String path = "zb-study/data";
+        String path = "data";
         List<String> files = Stream.of(new File(path).listFiles())
                                    .filter(file -> !file.isDirectory() 
                                                    && file.toString().contains(filename))
