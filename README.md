@@ -1,9 +1,7 @@
 # zb-backend-study
-
-
 ## zb psets
-|   # [^1]   | Origin | Submitter | Solution | Submission | Related |
-| :--------: | :----: | :-------: | :------: | :--------: | :-----: |
+|   # [^1]   | Origin | Author | Solution | Submission | Related |
+| :--------: | :----: | :----: | :------: | :--------: | :-----: |
 | [1.1.18_1.1](./docs/Problems.md#practice-111811) | [L00007](https://leetcode.com/problems/reverse-integer/) | hdev | [java](./hanjoondev/leetcode/L00007.java)<br>[py](./hanjoondev/leetcode/L00007.py) | [98.85%](https://leetcode.com/submissions/detail/676433438/)<br>[97.38%](https://leetcode.com/submissions/detail/681368158/) |                                               |
 | [1.1.18_1.2](./docs/Problems.md#practice-111812) | unknown | hdev | [java](./unknown/U111812.java)<br>[py](./unknown/U111812.py) | |                                               |
 | [1.1.18_1.3](./docs/Problems.md#practice-111813) | unknown | hdev | [java](./unknown/U111813.java)<br>[py](./unknown/U111813.py) | |                                               |
@@ -140,3 +138,56 @@
 | [2.4.20_2.4](./docs/Problems.md#practice-242024) | [A04095](https://www.acmicpc.net/problem/4095) | hdev | | |                                               |
 | [2.4.20_2.5](./docs/Problems.md#practice-242025) | [L01584](https://leetcode.com/problems/min-cost-to-connect-all-points/) | hdev | | |                                               |
 [^1]: Part. Chapter. Subchapter. Problem Number hanjoondev |
+
+## opt: linked list
+## opt: queue
+## opt: stack
+## opt: hash table
+## opt: tree
+## opt: graph
+## opt: heap
+## opt: trie
+## opt: sorting
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
+
+## opt: binary search
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
+
+## opt: two pointer
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
+
+## opt: greedy
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
+
+## opt: divide and conquer
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
+
+## opt: backtracking
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
+
+## opt: dp
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
+
+## opt: dijkstra
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
+
+## opt: minimum spanning tree
+| Source  | Problem | Author | Solution | Submission |
+| :-----: | :-----: | :----: | :------: | :--------: |
+| | | | | |
