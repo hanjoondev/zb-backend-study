@@ -155,7 +155,8 @@
 ## opt: binary search
 | Source  | Problem | Author | Solution | Submission |
 | :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+| [A02110](https://www.acmicpc.net/problem/2110)| 공유기 설치 | hdev | [py](./hanjoondev/acmicpc/A02110.py) | [344ms](https://www.acmicpc.net/source/43077072) |
+| [A12015](https://www.acmicpc.net/problem/12015)| 가장 긴 증가하는 부분 수열 2 | hdev | [py](./hanjoondev/acmicpc/A12015.py) | [2,568ms](https://www.acmicpc.net/source/43085812) |
 
 ## opt: two pointer
 | Source  | Problem | Author | Solution | Submission |
