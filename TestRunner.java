@@ -492,7 +492,31 @@ public class TestRunner {
             ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
             System.setIn(new ByteArrayInputStream(mockData.getBytes()));
             System.setOut(new PrintStream(actualOutput));
-            test.solution();
+            test.reader();
+            Assertions.assertEquals(expected, actualOutput.toString().trim());
+            System.setIn(sysIn);
+        }
+        long end = System.nanoTime();
+        System.setOut(sysOut);
+        if (verbose)
+            System.out.printf("%sTest(): SUCCESS%s\n", fileName, 
+                String.format(" in %.2fms", (end - start) / 1e6));
+    }
+
+    @Test
+    void A01300Test(Boolean verbose) throws IOException {
+        A01300 test = new A01300();
+        String fileName = new Object() {}.getClass().getEnclosingMethod().getName().replace("Test", "");
+        ArrayList<String[]> files = mockInOutTestHelper(fileName);
+        final PrintStream sysOut = System.out;
+        long start = System.nanoTime();
+        for (int i = 0; i < files.size() / 2; i++) {
+            String mockData = files.get(0)[i], expected = files.get(1)[i];
+            InputStream sysIn = System.in;
+            ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
+            System.setIn(new ByteArrayInputStream(mockData.getBytes()));
+            System.setOut(new PrintStream(actualOutput));
+            test.reader();
             Assertions.assertEquals(expected, actualOutput.toString().trim());
             System.setIn(sysIn);
         }
@@ -516,7 +540,31 @@ public class TestRunner {
             ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
             System.setIn(new ByteArrayInputStream(mockData.getBytes()));
             System.setOut(new PrintStream(actualOutput));
-            test.solution();
+            test.reader();
+            Assertions.assertEquals(expected, actualOutput.toString().trim());
+            System.setIn(sysIn);
+        }
+        long end = System.nanoTime();
+        System.setOut(sysOut);
+        if (verbose)
+            System.out.printf("%sTest(): SUCCESS%s\n", fileName, 
+                String.format(" in %.2fms", (end - start) / 1e6));
+    }
+
+    @Test
+    void A01654Test(Boolean verbose) throws IOException {
+        A01654 test = new A01654();
+        String fileName = new Object() {}.getClass().getEnclosingMethod().getName().replace("Test", "");
+        ArrayList<String[]> files = mockInOutTestHelper(fileName);
+        final PrintStream sysOut = System.out;
+        long start = System.nanoTime();
+        for (int i = 0; i < files.size() / 2; i++) {
+            String mockData = files.get(0)[i], expected = files.get(1)[i];
+            InputStream sysIn = System.in;
+            ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
+            System.setIn(new ByteArrayInputStream(mockData.getBytes()));
+            System.setOut(new PrintStream(actualOutput));
+            test.reader();
             Assertions.assertEquals(expected, actualOutput.toString().trim());
             System.setIn(sysIn);
         }
@@ -576,8 +624,80 @@ public class TestRunner {
     }
 
     @Test
+    void A01920Test(Boolean verbose) throws IOException {
+        A01920 test = new A01920();
+        String fileName = new Object() {}.getClass().getEnclosingMethod().getName().replace("Test", "");
+        ArrayList<String[]> files = mockInOutTestHelper(fileName);
+        final PrintStream sysOut = System.out;
+        long start = System.nanoTime();
+        for (int i = 0; i < files.size() / 2; i++) {
+            String mockData = files.get(0)[i], expected = files.get(1)[i];
+            InputStream sysIn = System.in;
+            ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
+            System.setIn(new ByteArrayInputStream(mockData.getBytes()));
+            System.setOut(new PrintStream(actualOutput));
+            test.reader();
+            Assertions.assertEquals(expected, actualOutput.toString().trim());
+            System.setIn(sysIn);
+        }
+        long end = System.nanoTime();
+        System.setOut(sysOut);
+        if (verbose)
+            System.out.printf("%sTest(): SUCCESS%s\n", fileName, 
+                String.format(" in %.2fms", (end - start) / 1e6));
+    }
+
+    @Test
+    void A02110Test(Boolean verbose) throws IOException {
+        A02110 test = new A02110();
+        String fileName = new Object() {}.getClass().getEnclosingMethod().getName().replace("Test", "");
+        ArrayList<String[]> files = mockInOutTestHelper(fileName);
+        final PrintStream sysOut = System.out;
+        long start = System.nanoTime();
+        for (int i = 0; i < files.size() / 2; i++) {
+            String mockData = files.get(0)[i], expected = files.get(1)[i];
+            InputStream sysIn = System.in;
+            ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
+            System.setIn(new ByteArrayInputStream(mockData.getBytes()));
+            System.setOut(new PrintStream(actualOutput));
+            test.reader();
+            Assertions.assertEquals(expected, actualOutput.toString().trim());
+            System.setIn(sysIn);
+        }
+        long end = System.nanoTime();
+        System.setOut(sysOut);
+        if (verbose)
+            System.out.printf("%sTest(): SUCCESS%s\n", fileName, 
+                String.format(" in %.2fms", (end - start) / 1e6));
+    }
+
+    @Test
     void A02346Test(Boolean verbose) throws IOException {
         A02346 test = new A02346();
+        String fileName = new Object() {}.getClass().getEnclosingMethod().getName().replace("Test", "");
+        ArrayList<String[]> files = mockInOutTestHelper(fileName);
+        final PrintStream sysOut = System.out;
+        long start = System.nanoTime();
+        for (int i = 0; i < files.size() / 2; i++) {
+            String mockData = files.get(0)[i], expected = files.get(1)[i];
+            InputStream sysIn = System.in;
+            ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
+            System.setIn(new ByteArrayInputStream(mockData.getBytes()));
+            System.setOut(new PrintStream(actualOutput));
+            test.reader();
+            Assertions.assertEquals(expected, actualOutput.toString().trim());
+            System.setIn(sysIn);
+        }
+        long end = System.nanoTime();
+        System.setOut(sysOut);
+        if (verbose)
+            System.out.printf("%sTest(): SUCCESS%s\n", fileName, 
+                String.format(" in %.2fms", (end - start) / 1e6));
+    }
+
+    @Test
+    void A02805Test(Boolean verbose) throws IOException {
+        A02805 test = new A02805();
         String fileName = new Object() {}.getClass().getEnclosingMethod().getName().replace("Test", "");
         ArrayList<String[]> files = mockInOutTestHelper(fileName);
         final PrintStream sysOut = System.out;
@@ -636,7 +756,7 @@ public class TestRunner {
             ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
             System.setIn(new ByteArrayInputStream(mockData.getBytes()));
             System.setOut(new PrintStream(actualOutput));
-            test.solution();
+            test.reader();
             Assertions.assertEquals(expected, actualOutput.toString().trim());
             System.setIn(sysIn);
         }
@@ -660,7 +780,7 @@ public class TestRunner {
             ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
             System.setIn(new ByteArrayInputStream(mockData.getBytes()));
             System.setOut(new PrintStream(actualOutput));
-            test.solution();
+            test.reader();
             Assertions.assertEquals(expected, actualOutput.toString().trim());
             System.setIn(sysIn);
         }
@@ -696,6 +816,30 @@ public class TestRunner {
     }
 
     @Test
+    void A12015Test(Boolean verbose) throws IOException {
+        A12015 test = new A12015();
+        String fileName = new Object() {}.getClass().getEnclosingMethod().getName().replace("Test", "");
+        ArrayList<String[]> files = mockInOutTestHelper(fileName);
+        final PrintStream sysOut = System.out;
+        long start = System.nanoTime();
+        for (int i = 0; i < files.size() / 2; i++) {
+            String mockData = files.get(0)[i], expected = files.get(1)[i];
+            InputStream sysIn = System.in;
+            ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
+            System.setIn(new ByteArrayInputStream(mockData.getBytes()));
+            System.setOut(new PrintStream(actualOutput));
+            test.reader();
+            Assertions.assertEquals(expected, actualOutput.toString().trim());
+            System.setIn(sysIn);
+        }
+        long end = System.nanoTime();
+        System.setOut(sysOut);
+        if (verbose)
+            System.out.printf("%sTest(): SUCCESS%s\n", fileName, 
+                String.format(" in %.2fms", (end - start) / 1e6));
+    }
+
+    @Test
     void A16934Test(Boolean verbose) throws IOException {
         A16934 test = new A16934();
         String fileName = new Object() {}.getClass().getEnclosingMethod().getName().replace("Test", "");
@@ -708,7 +852,7 @@ public class TestRunner {
             ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
             System.setIn(new ByteArrayInputStream(mockData.getBytes()));
             System.setOut(new PrintStream(actualOutput));
-            test.solution();
+            test.reader();
             Assertions.assertEquals(expected, actualOutput.toString().trim());
             System.setIn(sysIn);
         }
@@ -732,7 +876,7 @@ public class TestRunner {
             ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
             System.setIn(new ByteArrayInputStream(mockData.getBytes()));
             System.setOut(new PrintStream(actualOutput));
-            test.solution();
+            test.reader();
             Assertions.assertEquals(expected, actualOutput.toString().trim());
             System.setIn(sysIn);
         }
@@ -756,7 +900,7 @@ public class TestRunner {
             ByteArrayOutputStream actualOutput = new ByteArrayOutputStream();
             System.setIn(new ByteArrayInputStream(mockData.getBytes()));
             System.setOut(new PrintStream(actualOutput));
-            test.solution();
+            test.reader();
             Assertions.assertEquals(expected, actualOutput.toString().trim());
             System.setIn(sysIn);
         }
@@ -847,14 +991,20 @@ public class TestRunner {
 
     void acmicpcRunner(Boolean verbose, TestRunner testRunner) throws IOException {
         testRunner.A01158Test(verbose);
+        testRunner.A01300Test(verbose);
         testRunner.A01406Test(verbose);
+        testRunner.A01654Test(verbose);
         testRunner.A01874Test(verbose);
         testRunner.A01914Test(verbose);
+        testRunner.A01920Test(verbose);
+        testRunner.A02110Test(verbose);
         testRunner.A02346Test(verbose);
+        testRunner.A02805Test(verbose);
         testRunner.A03190Test(verbose);
         testRunner.A05670Test(verbose);
         testRunner.A09012Test(verbose);
         testRunner.A10026Test(verbose);
+        testRunner.A12015Test(verbose);
         testRunner.A16934Test(verbose);
         testRunner.A17609Test(verbose);
         testRunner.A17612Test(verbose);

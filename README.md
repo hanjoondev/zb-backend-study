@@ -164,12 +164,12 @@
 ## opt: binary search
 | Source  | Problem | Author | Solution | Submission |
 | :-----: | :-----: | :----: | :------: | :--------: |
-| [A01300](https://www.acmicpc.net/problem/1300)| K번째 수 | hdev | [py](./hanjoondev/acmicpc/A01300.py) | [696ms](https://www.acmicpc.net/source/43142625) |
-| [A01654](https://www.acmicpc.net/problem/1654)| 랜선 자르기 | hdev | [py](./hanjoondev/acmicpc/A01654.py) | [96ms](https://www.acmicpc.net/source/43132445) |
-| [A01920](https://www.acmicpc.net/problem/1920)| 수 찾기 | hdev | [py](./hanjoondev/acmicpc/A01920.py) | [500ms](https://www.acmicpc.net/source/43130585) |
-| [A02110](https://www.acmicpc.net/problem/2110)| 공유기 설치 | hdev | [py](./hanjoondev/acmicpc/A02110.py) | [344ms](https://www.acmicpc.net/source/43077072) |
-| [A02805](https://www.acmicpc.net/problem/2805)| 나무 자르기 | hdev | [py](./hanjoondev/acmicpc/A02805.py) | [2,680ms](https://www.acmicpc.net/source/43135710) |
-| [A12015](https://www.acmicpc.net/problem/12015)| 가장 긴 증가하는 부분 수열 2 | hdev | [py](./hanjoondev/acmicpc/A12015.py) | [2,568ms](https://www.acmicpc.net/source/43085812) |
+| [A01300](https://www.acmicpc.net/problem/1300)| K번째 수 | hdev | [java](./hanjoondev/acmicpc/A01300.java)<br>[py](./hanjoondev/acmicpc/A01300.py) | [96ms](https://www.acmicpc.net/source/43163383)<br>[696ms](https://www.acmicpc.net/source/43142625) |
+| [A01654](https://www.acmicpc.net/problem/1654)| 랜선 자르기 | hdev | [java](./hanjoondev/acmicpc/A01654.java)<br>[py](./hanjoondev/acmicpc/A01654.py) | [132ms](https://www.acmicpc.net/source/43163458)<br>[96ms](https://www.acmicpc.net/source/43132445) |
+| [A01920](https://www.acmicpc.net/problem/1920)| 수 찾기 | hdev | [java](./hanjoondev/acmicpc/A01920.java)<br>[py](./hanjoondev/acmicpc/A01920.py) | [528ms](https://www.acmicpc.net/source/43162762)<br>[500ms](https://www.acmicpc.net/source/43130585) |
+| [A02110](https://www.acmicpc.net/problem/2110)| 공유기 설치 | hdev | [java](./hanjoondev/acmicpc/A02110.java)<br>[py](./hanjoondev/acmicpc/A02110.py) | [280ms](https://www.acmicpc.net/source/43161928)<br>[344ms](https://www.acmicpc.net/source/43077072) |
+| [A02805](https://www.acmicpc.net/problem/2805)| 나무 자르기 | hdev | [java](./hanjoondev/acmicpc/A02805.java)<br>[py](./hanjoondev/acmicpc/A02805.py) | [524ms](https://www.acmicpc.net/source/43163556)<br>[2,680ms](https://www.acmicpc.net/source/43135710) |
+| [A12015](https://www.acmicpc.net/problem/12015)| 가장 긴 증가하는 부분 수열 2 | hdev | [java](./hanjoondev/acmicpc/A12015.java)<br>[py](./hanjoondev/acmicpc/A12015.py) | [612ms](https://www.acmicpc.net/source/43164563)<br>[2,568ms](https://www.acmicpc.net/source/43085812)  |
 
 ## opt: two pointer
 | Source  | Problem | Author | Solution | Submission |
