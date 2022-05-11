@@ -160,6 +160,8 @@
 ## opt: binary search
 | Source  | Problem | Author | Solution | Submission |
 | :-----: | :-----: | :----: | :------: | :--------: |
+| [A01654](https://www.acmicpc.net/problem/1654)| 랜선 자르기 | hdev | [py](./hanjoondev/acmicpc/A01654.py) | [96ms](https://www.acmicpc.net/source/43132445) |
+| [A01920](https://www.acmicpc.net/problem/1920)| 수 찾기 | hdev | [py](./hanjoondev/acmicpc/A01920.py) | [500ms](https://www.acmicpc.net/source/43130585) |
 | [A02110](https://www.acmicpc.net/problem/2110)| 공유기 설치 | hdev | [py](./hanjoondev/acmicpc/A02110.py) | [344ms](https://www.acmicpc.net/source/43077072) |
 | [A12015](https://www.acmicpc.net/problem/12015)| 가장 긴 증가하는 부분 수열 2 | hdev | [py](./hanjoondev/acmicpc/A12015.py) | [2,568ms](https://www.acmicpc.net/source/43085812) |
 
