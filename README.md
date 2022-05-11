@@ -108,7 +108,9 @@
 | [2.4.05_1.3](./docs/Problems.md#practice-240513) | [L00074](https://leetcode.com/problems/search-a-2d-matrix/) | hdev | [py](./hanjoondev/leetcode/L00074.py) | [97.72%](https://leetcode.com/submissions/detail/696388041/) | Binary Search                                 |
 |  |  | NohYeongHun | [java](./NohYeongHun/leetcode/L00074.java) | [100%](https://leetcode.com/submissions/detail/696780230/) | Binary Search                                 |
 | [2.4.05_1.4](./docs/Problems.md#practice-240514) | [L01011](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | hdev | [py](./hanjoondev/leetcode/L01011.py) | [73.43%](https://leetcode.com/submissions/detail/696400976/) | Binary Search                                 |
+|  |  | NohYeongHun | [java](./NohYeongHun/leetcode/L01011.java) | [90.80%](https://leetcode.com/submissions/detail/697344839/) | Binary Search                                 |
 | [2.4.05_1.5](./docs/Problems.md#practice-240515) | [L00410](https://leetcode.com/problems/split-array-largest-sum/) | hdev | [py](./hanjoondev/leetcode/L00410.py) | [69.29%](https://leetcode.com/submissions/detail/696433271/) | Binary Search                                 |
+|  |  | NohYeongHun | [java](./NohYeongHun/leetcode/L00410.java) | [80.37%](https://leetcode.com/submissions/detail/697342931/) | Binary Search                                 |
 | [2.4.07_1.1](./docs/Problems.md#practice-240711) | unknown | hdev | | |                                               |
 | [2.4.07_1.2](./docs/Problems.md#practice-240712) | [L00349](https://leetcode.com/problems/intersection-of-two-arrays/) | hdev | | |                                               |
 | [2.4.07_1.3](./docs/Problems.md#practice-240713) | [L00151](https://leetcode.com/problems/reverse-words-in-a-string/) | hdev | | |                                               |
@@ -133,11 +135,13 @@
 | [2.4.19_1.1](./docs/Problems.md#practice-241911) | [A02887](https://www.acmicpc.net/problem/2887) | hdev | | |                                               |
 | [2.4.19_1.2](./docs/Problems.md#practice-241912) | [A01647](https://www.acmicpc.net/problem/1647) | hdev | | |                                               |
 | [2.4.20_1.1](./docs/Problems.md#practice-242011) | [A03079](https://www.acmicpc.net/problem/3079) | hdev |[py](./hanjoondev/acmicpc/A03079.py) | [788ms](https://www.acmicpc.net/source/42683561) | Binary Search                                 |
+|  |  | NohYeongHun |[py](./NohYeongHun/acmicpc/A03079.py) | [616ms](https://www.acmicpc.net/source/43154843) | Binary Search                                 |
 | [2.4.20_1.2](./docs/Problems.md#practice-242012) | [A15961](https://www.acmicpc.net/problem/15961) | hdev |[py](./hanjoondev/acmicpc/A15961.py) | [3,308ms](https://www.acmicpc.net/source/42687853) | Sliding Window                                |
 | [2.4.20_1.3](./docs/Problems.md#practice-242013) | [A01700](https://www.acmicpc.net/problem/1700) | hdev |[py](./hanjoondev/acmicpc/A01700.py) | [68ms](https://www.acmicpc.net/source/42706860) | Greedy                                        |
 | [2.4.20_1.4](./docs/Problems.md#practice-242014) | [A02240](https://www.acmicpc.net/problem/2240) | hdev |[py](./hanjoondev/acmicpc/A02240.py) | [72ms](https://www.acmicpc.net/source/42727028) | DP                                            |
 | [2.4.20_1.5](./docs/Problems.md#practice-242015) | [A13418](https://www.acmicpc.net/problem/13418) | hdev | | |                                               |
 | [2.4.20_2.1](./docs/Problems.md#practice-242021) | [P43236](https://programmers.co.kr/learn/courses/30/lessons/43236) | hdev |[java](./hanjoondev/programmers/P43236.java)<br>[py](./hanjoondev/programmers/P43236.py) | | Binary Search                                 |
+|  |  | NohYeongHun |[java](./NohYeongHun/programmers/P43236.java) | | Binary Search                                 |
 | [2.4.20_2.2](./docs/Problems.md#practice-242022) | unknown | hdev | | |                                               |
 | [2.4.20_2.3](./docs/Problems.md#practice-242023) | [P42886](https://programmers.co.kr/learn/courses/30/lessons/42886) | hdev | | |                                               |
 | [2.4.20_2.4](./docs/Problems.md#practice-242024) | [A04095](https://www.acmicpc.net/problem/4095) | hdev | | |                                               |
