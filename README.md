@@ -122,7 +122,7 @@
 | [2.4.09_1.5](./docs/Problems.md#practice-240915) | [L00670](https://leetcode.com/problems/maximum-swap/) | hdev | [py](./hanjoondev/leetcode/L00670.py) | [61.06%](https://leetcode.com/submissions/detail/698856150/) | Greedy                                        |
 | [2.4.11_1.1](./docs/Problems.md#practice-241111) | [L00053](https://leetcode.com/problems/maximum-subarray/) | hdev | | |                                               |
 | [2.4.11_1.2](./docs/Problems.md#practice-241112) | [L00023](https://leetcode.com/problems/merge-k-sorted-lists/)| hdev | | |                                               |
-| [2.4.13_1.1](./docs/Problems.md#practice-241311) | unknown | hdev | | |                                               |
+| [2.4.13_1.1](./docs/Problems.md#practice-241311) | [A01463](https://www.acmicpc.net/problem/1463) | hdev | | |                                               |
 | [2.4.13_1.2](./docs/Problems.md#practice-241312) | [L00674](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | hdev | | |                                               |
 | [2.4.13_1.3](./docs/Problems.md#practice-241313) | [A12865](https://www.acmicpc.net/problem/12865) | hdev | [py](./hanjoondev/acmicpc/A12865.py) | [2,988ms](https://www.acmicpc.net/source/42764820) | DP                                            |
 | [2.4.15_1.1](./docs/Problems.md#practice-241511) | [A15649](https://www.acmicpc.net/problem/15649) | hdev | [py](./hanjoondev/acmicpc/A15649.py) | [224ms](https://www.acmicpc.net/source/42960158) | Permutation                                   |
@@ -149,59 +149,234 @@
 [^1]: Part. Chapter. Subchapter. Problem Number hanjoondev |
 
 ## opt: linked list
-## opt: queue
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| | | | | | |
+
 ## opt: stack
-## opt: hash table
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A10828](https://www.acmicpc.net/problem/10828)| 스택 | hdev | | | |
+| [A10773](https://www.acmicpc.net/problem/10773)| 제로 | hdev | | | |
+| [A09012](https://www.acmicpc.net/problem/9012) | 괄호 | hdev | [java](./hanjoondev/acmicpc/A09012.java) | [144ms](https://www.acmicpc.net/source/42782365) | Stack |
+| [A04949](https://www.acmicpc.net/problem/4949) | 균형잡힌 세상 | hdev | | | |
+| [A01874](https://www.acmicpc.net/problem/1874) | 스택 수열 | hdev | [java](./hanjoondev/acmicpc/A01874.java) | [352ms](https://www.acmicpc.net/source/41762939) | Stack |
+| [A17298](https://www.acmicpc.net/problem/17298)| 오큰수 | hdev | | | |
+
+## opt: queue, deque
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A18258](https://www.acmicpc.net/problem/18258)| 큐 2 | hdev | | | |
+| [A02164](https://www.acmicpc.net/problem/2164) | 카드2 | hdev | [py](./hanjoondev/acmicpc/A02164.py) | [84ms](https://www.acmicpc.net/source/42842540) | Math |
+| [A11866](https://www.acmicpc.net/problem/11866)| 요세푸스 문제 0 | hdev | | | |
+| [A01966](https://www.acmicpc.net/problem/1966) | 프린터 큐 | hdev | | | |
+| [A10866](https://www.acmicpc.net/problem/10866)| 덱 | hdev | | | |
+| [A01021](https://www.acmicpc.net/problem/1021) | 회전하는 큐 | hdev | | | |
+| [A05430](https://www.acmicpc.net/problem/5430) | AC | hdev | | | |
+
+## opt: hash table, hash map
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A10815](https://www.acmicpc.net/problem/10815)| 숫자 카드 | hdev | | | |
+| [A14425](https://www.acmicpc.net/problem/14425)| 문자열 집합 | hdev | | | |
+| [A01620](https://www.acmicpc.net/problem/1620) | 나는야 포켓몬 마스터 이다솜 | hdev | | | |
+| [A10816](https://www.acmicpc.net/problem/10816)| 숫자 카드 2 | hdev | [py](./hanjoondev/acmicpc/A10816.py) | [700ms](https://www.acmicpc.net/source/43133190) | Hash Map |
+| [A01764](https://www.acmicpc.net/problem/1764) | 듣보잡 | hdev | | | |
+| [A01269](https://www.acmicpc.net/problem/1269) | 대칭 차집합 | hdev | | | |
+| [A11478](https://www.acmicpc.net/problem/11478)| 서로 다른 부분 문자열의 개수 | hdev | | | |
+
 ## opt: tree
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A11725](https://www.acmicpc.net/problem/11725)| 트리의 부모 찾기 | hdev | | | |
+| [A01167](https://www.acmicpc.net/problem/1167) | 트리의 지름 | hdev | [py](./hanjoondev/acmicpc/A01167.py) | [964ms](https://www.acmicpc.net/source/42650315) | |
+| [A01967](https://www.acmicpc.net/problem/1967) | 트리의 지름 | hdev | [py](./hanjoondev/acmicpc/A01967.py) | [112ms](https://www.acmicpc.net/source/42649958) | |
+| [A01991](https://www.acmicpc.net/problem/1991) | 트리 순회 | hdev | | | |
+| [A02263](https://www.acmicpc.net/problem/2263) | 트리의 순회 | hdev | | | |
+| [A05639](https://www.acmicpc.net/problem/5639) | 이진 검색 트리 | hdev | | | |
+| [A04803](https://www.acmicpc.net/problem/4803) | 트리 | hdev | | | |
+
 ## opt: graph
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A24479](https://www.acmicpc.net/problem/24479)| 알고리즘 수업 - 깊이 우선 탐색 1 | hdev | | | |
+| [A24480](https://www.acmicpc.net/problem/24480)| 알고리즘 수업 - 깊이 우선 탐색 2 | hdev | | | |
+| [A24444](https://www.acmicpc.net/problem/24444)| 알고리즘 수업 - 너비 우선 탐색 1 | hdev | | | |
+| [A24445](https://www.acmicpc.net/problem/24445)| 알고리즘 수업 - 너비 우선 탐색 2 | hdev | | | |
+| [A02606](https://www.acmicpc.net/problem/2606) | 바이러스 | hdev | | | |
+| [A01260](https://www.acmicpc.net/problem/1260) | DFS와 BFS | hdev | | | |
+| [A02667](https://www.acmicpc.net/problem/2667) | 단지번호붙이기 | hdev | | | |
+| [A01012](https://www.acmicpc.net/problem/1012) | 유기농 배추 | hdev | | | |
+| [A02178](https://www.acmicpc.net/problem/2178) | 미로 탐색 | hdev | | | |
+| [A07576](https://www.acmicpc.net/problem/7576) | 토마토 | hdev | | | |
+| [A07569](https://www.acmicpc.net/problem/7569) | 토마토 | hdev | | | |
+| [A01697](https://www.acmicpc.net/problem/1697) | 숨바꼭질 | hdev | | | |
+| [A07562](https://www.acmicpc.net/problem/7562) | 나이트의 이동 | hdev | | | |
+| [A16928](https://www.acmicpc.net/problem/16928)| 뱀과 사다리 게임 | hdev | | | |
+| [A02206](https://www.acmicpc.net/problem/2206) | 벽 부수고 이동하기 | hdev | [py](./hanjoondev/acmicpc/A02206.py) | [2,688ms](https://www.acmicpc.net/source/42792533) | BFS |
+| [A01707](https://www.acmicpc.net/problem/1707) | 이분 그래프 | hdev | | | |
+
 ## opt: heap
-## opt: trie
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A11279](https://www.acmicpc.net/problem/11279)| 최대 힙 | hdev | | | |
+| [A01927](https://www.acmicpc.net/problem/1927) | 최소 힙 | hdev | | | |
+| [A11286](https://www.acmicpc.net/problem/7579)| 절댓값 힙 | hdev | | | |
+| [A01655](https://www.acmicpc.net/problem/1655) | 가운데를 말해요 | hdev | | | |
+
+## opt: trie, kmp
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A01786](https://www.acmicpc.net/problem/1786) | 찾기 | hdev | | | |
+| [A04354](https://www.acmicpc.net/problem/4354) | 문자열 제곱 | hdev | | | |
+| [A01305](https://www.acmicpc.net/problem/1305) | 광고 | hdev | | | |
+| [A10266](https://www.acmicpc.net/problem/10266)| 시계 사진들 | hdev | | | |
+| [A14725](https://www.acmicpc.net/problem/14725)| 개미굴 | hdev | | | |
+| [A14425](https://www.acmicpc.net/problem/14425)| 문자열 집합 | hdev | | | |
+| [A05670](https://www.acmicpc.net/problem/5670) | 휴대폰 자판 | hdev | [java](./hanjoondev/acmicpc/A05670.java)<br>[py](./hanjoondev/acmicpc/A05670.py) | [620ms](https://www.acmicpc.net/source/42468116)<br>[1,972ms](https://www.acmicpc.net/source/42408674) | Trie |
+
 ## opt: sorting
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A02750](https://www.acmicpc.net/problem/2750) | 수 정렬하기 | hdev | | | |
+| [A02751](https://www.acmicpc.net/problem/2751) | 수 정렬하기 2 | hdev | | | |
+| [A10989](https://www.acmicpc.net/problem/10989)| 수 정렬하기 3 | hdev | | | |
+| [A02108](https://www.acmicpc.net/problem/2108) | 통계학 | hdev | | | |
+| [A01427](https://www.acmicpc.net/problem/1427) | 소트인사이드 | hdev | | | |
+| [A11650](https://www.acmicpc.net/problem/11650)| 좌표 정렬하기 | hdev | | | |
+| [A11651](https://www.acmicpc.net/problem/11651)| 좌표 정렬하기 2 | hdev | | | |
+| [A01181](https://www.acmicpc.net/problem/1181) | 단어 정렬 | hdev | | | |
+| [A10814](https://www.acmicpc.net/problem/10814)| 나이순 정렬 | hdev | | | |
+| [A18870](https://www.acmicpc.net/problem/18870)| 좌표 압축 | hdev | | | |
 
 ## opt: binary search
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| [A01300](https://www.acmicpc.net/problem/1300)| K번째 수 | hdev | [java](./hanjoondev/acmicpc/A01300.java)<br>[py](./hanjoondev/acmicpc/A01300.py) | [96ms](https://www.acmicpc.net/source/43163383)<br>[696ms](https://www.acmicpc.net/source/43142625) |
-| [A01654](https://www.acmicpc.net/problem/1654)| 랜선 자르기 | hdev | [java](./hanjoondev/acmicpc/A01654.java)<br>[py](./hanjoondev/acmicpc/A01654.py) | [132ms](https://www.acmicpc.net/source/43163458)<br>[96ms](https://www.acmicpc.net/source/43132445) |
-| [A01920](https://www.acmicpc.net/problem/1920)| 수 찾기 | hdev | [java](./hanjoondev/acmicpc/A01920.java)<br>[py](./hanjoondev/acmicpc/A01920.py) | [528ms](https://www.acmicpc.net/source/43162762)<br>[500ms](https://www.acmicpc.net/source/43130585) |
-| [A02110](https://www.acmicpc.net/problem/2110)| 공유기 설치 | hdev | [java](./hanjoondev/acmicpc/A02110.java)<br>[py](./hanjoondev/acmicpc/A02110.py) | [280ms](https://www.acmicpc.net/source/43161928)<br>[344ms](https://www.acmicpc.net/source/43077072) |
-| [A02805](https://www.acmicpc.net/problem/2805)| 나무 자르기 | hdev | [java](./hanjoondev/acmicpc/A02805.java)<br>[py](./hanjoondev/acmicpc/A02805.py) | [524ms](https://www.acmicpc.net/source/43163556)<br>[2,680ms](https://www.acmicpc.net/source/43135710) |
-| [A12015](https://www.acmicpc.net/problem/12015)| 가장 긴 증가하는 부분 수열 2 | hdev | [java](./hanjoondev/acmicpc/A12015.java)<br>[py](./hanjoondev/acmicpc/A12015.py) | [612ms](https://www.acmicpc.net/source/43164563)<br>[2,568ms](https://www.acmicpc.net/source/43085812)  |
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A01300](https://www.acmicpc.net/problem/1300) | K번째 수 | hdev | [java](./hanjoondev/acmicpc/A01300.java)<br>[py](./hanjoondev/acmicpc/A01300.py) | [96ms](https://www.acmicpc.net/source/43163383)<br>[696ms](https://www.acmicpc.net/source/43142625) | |
+| [A01654](https://www.acmicpc.net/problem/1654) | 랜선 자르기 | hdev | [java](./hanjoondev/acmicpc/A01654.java)<br>[py](./hanjoondev/acmicpc/A01654.py) | [132ms](https://www.acmicpc.net/source/43163458)<br>[96ms](https://www.acmicpc.net/source/43132445) | |
+| [A01920](https://www.acmicpc.net/problem/1920) | 수 찾기 | hdev | [java](./hanjoondev/acmicpc/A01920.java)<br>[py](./hanjoondev/acmicpc/A01920.py) | [528ms](https://www.acmicpc.net/source/43162762)<br>[500ms](https://www.acmicpc.net/source/43130585) | |
+| [A02110](https://www.acmicpc.net/problem/2110) | 공유기 설치 | hdev | [java](./hanjoondev/acmicpc/A02110.java)<br>[py](./hanjoondev/acmicpc/A02110.py) | [280ms](https://www.acmicpc.net/source/43161928)<br>[344ms](https://www.acmicpc.net/source/43077072) | |
+| [A02805](https://www.acmicpc.net/problem/2805) | 나무 자르기 | hdev | [java](./hanjoondev/acmicpc/A02805.java)<br>[py](./hanjoondev/acmicpc/A02805.py) | [524ms](https://www.acmicpc.net/source/43163556)<br>[2,680ms](https://www.acmicpc.net/source/43135710) | |
+| [A12015](https://www.acmicpc.net/problem/12015)| 가장 긴 증가하는 부분 수열 2 | hdev | [java](./hanjoondev/acmicpc/A12015.java)<br>[py](./hanjoondev/acmicpc/A12015.py) | [612ms](https://www.acmicpc.net/source/43164563)<br>[2,568ms](https://www.acmicpc.net/source/43085812)  | |
 
 ## opt: two pointer
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A03273](https://www.acmicpc.net/problem/3273)| 두 수의 합 | hdev | | | |
+| [A02470](https://www.acmicpc.net/problem/2470)| 두 용액 | hdev | | | |
+| [A01806](https://www.acmicpc.net/problem/1806)| 부분합 | hdev | | | |
+| [A01644](https://www.acmicpc.net/problem/3273)| 소수의 연속합 | hdev | | | |
+| [A01450](https://www.acmicpc.net/problem/1450)| 냅색문제 | hdev | | | |
 
 ## opt: greedy
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A11047](https://www.acmicpc.net/problem/11047)| 동전 0 | hdev | | | |
+| [A01931](https://www.acmicpc.net/problem/1931) | 회의실 배정 | hdev | | | |
+| [A11399](https://www.acmicpc.net/problem/11399)| ATM | hdev | | | |
+| [A01541](https://www.acmicpc.net/problem/1541) | 잃어버린 괄호 | hdev | | | |
+| [A13305](https://www.acmicpc.net/problem/13305)| 주유소 | hdev | | | |
 
 ## opt: divide and conquer
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A02630](https://www.acmicpc.net/problem/2630) | 색종이 만들기 | hdev | | | |
+| [A01992](https://www.acmicpc.net/problem/1992) | 쿼드트리 | hdev | | | |
+| [A01780](https://www.acmicpc.net/problem/1780) | 종이의 개수 | hdev | | | |
+| [A01629](https://www.acmicpc.net/problem/1629) | 곱셈 | hdev | | | |
+| [A11401](https://www.acmicpc.net/problem/11401)| 이항 계수 3 | hdev | | | |
+| [A02740](https://www.acmicpc.net/problem/2740) | 행렬 곱셈 | hdev | | | |
+| [A10830](https://www.acmicpc.net/problem/10830)| 행렬 제곱 | hdev | | | |
+| [A11444](https://www.acmicpc.net/problem/11444)| 피보나치 수 6 | hdev | | | |
+| [A06549](https://www.acmicpc.net/problem/6549) | 히스토그램에서 가장 큰 직사각형 | hdev | | | |
 
 ## opt: backtracking
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A15649](https://www.acmicpc.net/problem/15649)| N과 M (1) | hdev | [py](./hanjoondev/acmicpc/A15649.py) | [224ms](https://www.acmicpc.net/source/42960158) | |
+| [A15650](https://www.acmicpc.net/problem/15650)| N과 M (2) | hdev | | | |
+| [A15651](https://www.acmicpc.net/problem/15651)| N과 M (3) | hdev | | | |
+| [A15652](https://www.acmicpc.net/problem/15652)| N과 M (4) | hdev | | | |
+| [A09663](https://www.acmicpc.net/problem/9663) | N-Queen | hdev | | | |
+| [A02580](https://www.acmicpc.net/problem/2580) | N-스도쿠 | hdev | | | |
+| [A14888](https://www.acmicpc.net/problem/14888)| 연산자 끼워넣기 | hdev | | | |
+| [A14889](https://www.acmicpc.net/problem/14889)| 스타트와 링크 | hdev | | | |
 
 ## opt: dp
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A01003](https://www.acmicpc.net/problem/1003) | 피보나치 함수 | hdev | | | |
+| [A09184](https://www.acmicpc.net/problem/9184) | 신나는 함수 실행 | hdev | | | |
+| [A01904](https://www.acmicpc.net/problem/1904) | 01타일 | hdev | | | |
+| [A09461](https://www.acmicpc.net/problem/9461) | 파도반 수열 | hdev | | | |
+| [A01149](https://www.acmicpc.net/problem/1149) | RGB거리 | hdev | [py](./hanjoondev/acmicpc/A01149.py) | [68ms](https://www.acmicpc.net/source/42552653) | |
+| [A01932](https://www.acmicpc.net/problem/1932) | 정수 삼각형 | hdev | | | |
+| [A02579](https://www.acmicpc.net/problem/2579) | 계단 오르기 | hdev | | | |
+| [A01463](https://www.acmicpc.net/problem/1463) | 1로 만들기 | hdev | | | |
+| [A11053](https://www.acmicpc.net/problem/11053)| 가장 긴 증가하는 부분 수열 | hdev | | | |
+| [A02156](https://www.acmicpc.net/problem/2156) | 포도주 시식 | hdev | | | |
+| [A11053](https://www.acmicpc.net/problem/11053)| 가장 긴 증가하는 부분 수열 | hdev | | | |
+| [A11054](https://www.acmicpc.net/problem/11054)| 가장 긴 바이토닉 부분 수열 | hdev | | | |
+| [A02565](https://www.acmicpc.net/problem/2565) | 전깃줄 | hdev | | | |
+| [A09251](https://www.acmicpc.net/problem/9251) | LCS | hdev | | | |
+| [A01912](https://www.acmicpc.net/problem/1912) | 연속합 | hdev | | | |
+| [A12865](https://www.acmicpc.net/problem/12865)| 평범한 배낭 | hdev | [py](./hanjoondev/acmicpc/A12865.py) | [2,988ms](https://www.acmicpc.net/source/42764820) | |
+| [A11066](https://www.acmicpc.net/problem/11066)| 파일 합치기 | hdev | | | |
+| [A11049](https://www.acmicpc.net/problem/11049)| 행렬 곱셈 순서 | hdev | | | |
+| [A01520](https://www.acmicpc.net/problem/1520) | 내리막 길 | hdev | | | |
+| [A10942](https://www.acmicpc.net/problem/10942)| 팰린드롬? | hdev | | | |
+| [A02629](https://www.acmicpc.net/problem/2629) | 양팔저울 | hdev | | | |
+| [A02293](https://www.acmicpc.net/problem/2293) | 동전 1 | hdev | | | |
+| [A07579](https://www.acmicpc.net/problem/7579) | 앱 | hdev | | | |
+| [A12852](https://www.acmicpc.net/problem/12852)| 1로 만들기 2 | hdev | | | |
+| [A14002](https://www.acmicpc.net/problem/14002)| 가장 긴 증가하는 부분 수열 4 | hdev | | | |
+| [A14003](https://www.acmicpc.net/problem/14003)| 가장 긴 증가하는 부분 수열 5 | hdev | | | |
+| [A09252](https://www.acmicpc.net/problem/9252) | LCS 2 | hdev | | | |
+| [A02618](https://www.acmicpc.net/problem/2618) | 경찰차 | hdev | | | |
+| [A13913](https://www.acmicpc.net/problem/13913)| 숨바꼭질 4 | hdev | | | |
+| [A09019](https://www.acmicpc.net/problem/9019) | DSLR | hdev | | | |
+| [A11779](https://www.acmicpc.net/problem/11779)| 최소비용 구하기 2 | hdev | | | |
+| [A11780](https://www.acmicpc.net/problem/11780)| 플로이드 2 | hdev | | | |
+| [A15681](https://www.acmicpc.net/problem/15681)| 트리와 쿼리 | hdev | | | |
+| [A02213](https://www.acmicpc.net/problem/2213) | 트리의 독립집합 | hdev | | | |
+| [A02533](https://www.acmicpc.net/problem/7579) | 사회망 서비스(SNS) | hdev | | | |
+| [A01949](https://www.acmicpc.net/problem/1949) | 우수 마을 | hdev | | | |
+| [A01509](https://www.acmicpc.net/problem/1509) | 팰린드롬 분할 | hdev | | | |
+| [A02169](https://www.acmicpc.net/problem/2169) | 로봇 조종하기 | hdev | | | |
+| [A13392](https://www.acmicpc.net/problem/13392)| 방법을 출력하지 않는 숫자 맞추기 | hdev | | | |
+| [A02494](https://www.acmicpc.net/problem/2494) | 숫자 맞추기 | hdev | | | |
+| [A13976](https://www.acmicpc.net/problem/13976)| 타일 채우기 2 | hdev | | | |
+| [A01648](https://www.acmicpc.net/problem/1648) | 격자판 채우기 | hdev | | | |
+| [A01657](https://www.acmicpc.net/problem/1657) | 두부장수 장홍준 | hdev | | | |
+| [A11003](https://www.acmicpc.net/problem/11003)| 최솟값 찾기 | hdev | | | |
+| [A05977](https://www.acmicpc.net/problem/5977) | Mowing the Lawn | hdev | | | |
+| [A15678](https://www.acmicpc.net/problem/15678)| 연세워터파크 | hdev | | | |
+| [A14751](https://www.acmicpc.net/problem/14751)| Leftmost Segment | hdev | | | |
+| [A13263](https://www.acmicpc.net/problem/13263)| 나무 자르기 | hdev | | | |
+| [A04008](https://www.acmicpc.net/problem/4008) | 특공대 | hdev | | | |
+| [A10067](https://www.acmicpc.net/problem/10067)| 수열 나누기 | hdev | | | |
+| [A11001](https://www.acmicpc.net/problem/11001)| 김치 | hdev | | | |
+| [A13261](https://www.acmicpc.net/problem/13261)| 탈옥 | hdev | | | |
+| [A14636](https://www.acmicpc.net/problem/14636)| Money for Nothing | hdev | | | |
+| [A13974](https://www.acmicpc.net/problem/13974)| 파일 합치기 2 | hdev | | | |
 
-## opt: dijkstra
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+## opt: dijkstra, bellman-ford, floyd-warshall
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A01753](https://www.acmicpc.net/problem/1753) | 최단경로 | hdev | | | |
+| [A01504](https://www.acmicpc.net/problem/1504) | 특정한 최단 경로 | hdev | | | |
+| [A13549](https://www.acmicpc.net/problem/13549)| 숨바꼭질 3 | hdev | | | |
+| [A09370](https://www.acmicpc.net/problem/9370) | 미확인 도착지 | hdev | | | |
+| [A11657](https://www.acmicpc.net/problem/11657)| 타임머신 | hdev | | | |
+| [A11404](https://www.acmicpc.net/problem/11404)| 플로이드 | hdev | | | |
+| [A01956](https://www.acmicpc.net/problem/1956) | 운동 | hdev | | | |
 
 ## opt: minimum spanning tree
-| Source  | Problem | Author | Solution | Submission |
-| :-----: | :-----: | :----: | :------: | :--------: |
-| | | | | |
+| Source  | Problem | Author | Solution | Submission | Type |
+| :-----: | :-----: | :----: | :------: | :--------: | :--: |
+| [A09372](https://www.acmicpc.net/problem/9372) | 상근이의 여행 | hdev | | | |
+| [A01197](https://www.acmicpc.net/problem/1197) | 최소 스패닝 트리 | hdev | | | |
+| [A04386](https://www.acmicpc.net/problem/4386) | 별자리 만들기 | hdev | | | |
+| [A01774](https://www.acmicpc.net/problem/1774) | 우주신과의 교감 | hdev | | | |
+| [A02887](https://www.acmicpc.net/problem/2887) | 행성 터널 | hdev | | | |
+| [A17472](https://www.acmicpc.net/problem/17472)| 다리 만들기 2 | hdev | | | |
