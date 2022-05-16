@@ -270,8 +270,8 @@
 | [A03273](https://www.acmicpc.net/problem/3273)| 두 수의 합 | hdev | [py](./hanjoondev/acmicpc/A03273.py) | [108ms](https://www.acmicpc.net/source/43350390) | colliding |
 | [A02470](https://www.acmicpc.net/problem/2470)| 두 용액 | hdev | [py](./hanjoondev/acmicpc/A02470.py) | [148ms](https://www.acmicpc.net/source/43356319) | colliding |
 | [A01806](https://www.acmicpc.net/problem/1806)| 부분합 | hdev | [py](./hanjoondev/acmicpc/A01806.py) | [128ms](https://www.acmicpc.net/source/43356307) | fast and slow, unsorted |
-| [A01644](https://www.acmicpc.net/problem/1644)| 소수의 연속합 | hdev | [py](./hanjoondev/acmicpc/A01644.py) | [148ms](https://www.acmicpc.net/source/43383062)<br>[264ms](https://www.acmicpc.net/source/43383779) | fast and slow, sorted |
-| [A01450](https://www.acmicpc.net/problem/1450)| 냅색문제 | hdev | | | |
+| [A01644](https://www.acmicpc.net/problem/1644)| 소수의 연속합 | hdev | [java](./hanjoondev/acmicpc/A01644.java)<br>[py](./hanjoondev/acmicpc/A01644.py) | [148ms](https://www.acmicpc.net/source/43383062)<br>[264ms](https://www.acmicpc.net/source/43383779) | fast and slow, sorted |
+| [A01450](https://www.acmicpc.net/problem/1450)| 냅색문제 | hdev | [py](./hanjoondev/acmicpc/A01450.py) | [124ms](https://www.acmicpc.net/source/43405262) | Meet in the middle, DFS, Binary Search |
 
 ## opt: greedy
 | Source  | Problem | Author | Solution | Submission | Type |
