@@ -114,6 +114,7 @@
 | [2.4.07_1.1](./docs/Problems.md#practice-240711) | unknown | hdev | [py](./hanjoondev/unknown/U240711.py) | | Two Pointer                                   |
 |  |  | nyh | [java](./NohYeongHun/unknown/U240711.java) | | Two Pointer                                   |
 | [2.4.07_1.2](./docs/Problems.md#practice-240712) | [L00349](https://leetcode.com/problems/intersection-of-two-arrays/) | hdev | [py](./hanjoondev/leetcode/L00349.py) | [73.83%](https://leetcode.com/submissions/detail/698130919/) | Two Pointer, Binary Search                    |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00349.java) | [78.48%](https://leetcode.com/submissions/detail/700524111/) | Two Pointer, Binary Search                    |
 | [2.4.07_1.3](./docs/Problems.md#practice-240713) | [L00151](https://leetcode.com/problems/reverse-words-in-a-string/) | hdev | [py](./hanjoondev/leetcode/L00151.py) | [93.63%](https://leetcode.com/submissions/detail/698138796/) |                                               |
 | [2.4.07_1.4](./docs/Problems.md#practice-240714) | [L00015](https://leetcode.com/problems/3sum/) | hdev | [py](./hanjoondev/leetcode/L00015.py) | [37.65%](https://leetcode.com/submissions/detail/698774283/) | Two Pointer                                   |
 | [2.4.09_1.1](./docs/Problems.md#practice-240911) | [L00055](https://leetcode.com/problems/jump-game/) | hdev | [py](./hanjoondev/leetcode/L00055.py) | [80.96%](https://leetcode.com/submissions/detail/698778274/) | Greedy                                        |
