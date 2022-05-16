@@ -147,6 +147,7 @@
 | [2.4.20_2.1](./docs/Problems.md#practice-242021) | [P43236](https://programmers.co.kr/learn/courses/30/lessons/43236) | hdev | [java](./hanjoondev/programmers/P43236.java)<br>[py](./hanjoondev/programmers/P43236.py) | | Binary Search                                 |
 |  |  | nyh |[java](./NohYeongHun/programmers/P43236.java) | | Binary Search                                 |
 | [2.4.20_2.2](./docs/Problems.md#practice-242022) | [A01484](https://www.acmicpc.net/problem/1484) | hdev | [py](./hanjoondev/acmicpc/A01484.py) | [132ms](https://www.acmicpc.net/source/43268737) | Two Pointer                                   |
+|  |  | nyh | [py](./NohYeongHun/acmicpc/A01484.py) | [280ms](https://www.acmicpc.net/source/43384394) | Two Pointer                                   |
 | [2.4.20_2.3](./docs/Problems.md#practice-242023) | [P42886](https://programmers.co.kr/learn/courses/30/lessons/42886) | hdev | [py](./hanjoondev/programmers/P42886.py) | | Greedy                                        |
 | [2.4.20_2.4](./docs/Problems.md#practice-242024) | [A04095](https://www.acmicpc.net/problem/4095) | hdev | | |                                               |
 | [2.4.20_2.5](./docs/Problems.md#practice-242025) | [L01584](https://leetcode.com/problems/min-cost-to-connect-all-points/) | hdev | | |                                               |
