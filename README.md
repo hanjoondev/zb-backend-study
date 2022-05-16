@@ -112,9 +112,13 @@
 | [2.4.05_1.5](./docs/Problems.md#practice-240515) | [L00410](https://leetcode.com/problems/split-array-largest-sum/) | hdev | [py](./hanjoondev/leetcode/L00410.py) | [69.29%](https://leetcode.com/submissions/detail/696433271/) | Binary Search                                 |
 |  |  | nyh | [java](./NohYeongHun/leetcode/L00410.java) | [80.37%](https://leetcode.com/submissions/detail/697342931/) | Binary Search                                 |
 | [2.4.07_1.1](./docs/Problems.md#practice-240711) | unknown | hdev | [py](./hanjoondev/unknown/U240711.py) | | Two Pointer                                   |
+|  |  | nyh | [java](./NohYeongHun/unknown/U240711.java) | | Two Pointer                                   |
 | [2.4.07_1.2](./docs/Problems.md#practice-240712) | [L00349](https://leetcode.com/problems/intersection-of-two-arrays/) | hdev | [py](./hanjoondev/leetcode/L00349.py) | [73.83%](https://leetcode.com/submissions/detail/698130919/) | Two Pointer, Binary Search                    |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00349.java) | [78.48%](https://leetcode.com/submissions/detail/700524111/) | Two Pointer, Binary Search                    |
 | [2.4.07_1.3](./docs/Problems.md#practice-240713) | [L00151](https://leetcode.com/problems/reverse-words-in-a-string/) | hdev | [py](./hanjoondev/leetcode/L00151.py) | [93.63%](https://leetcode.com/submissions/detail/698138796/) |                                               |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00151.java) | [91.55%](https://leetcode.com/submissions/detail/700546153/) |                                               |
 | [2.4.07_1.4](./docs/Problems.md#practice-240714) | [L00015](https://leetcode.com/problems/3sum/) | hdev | [py](./hanjoondev/leetcode/L00015.py) | [37.65%](https://leetcode.com/submissions/detail/698774283/) | Two Pointer                                   |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00015.java) | [22.54%](https://leetcode.com/submissions/detail/700578454/) | Two Pointer                                   |
 | [2.4.09_1.1](./docs/Problems.md#practice-240911) | [L00055](https://leetcode.com/problems/jump-game/) | hdev | [py](./hanjoondev/leetcode/L00055.py) | [80.96%](https://leetcode.com/submissions/detail/698778274/) | Greedy                                        |
 | [2.4.09_1.2](./docs/Problems.md#practice-240912) | [L00122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | hdev | [py](./hanjoondev/leetcode/L00122.py) | [73.19%](https://leetcode.com/submissions/detail/698790197/) | Greedy                                        |
 | [2.4.09_1.3](./docs/Problems.md#practice-240913) | unknown | hdev | [py](./hanjoondev/unknown/U240913.py) | | Greedy                                        |
@@ -143,6 +147,7 @@
 | [2.4.20_2.1](./docs/Problems.md#practice-242021) | [P43236](https://programmers.co.kr/learn/courses/30/lessons/43236) | hdev | [java](./hanjoondev/programmers/P43236.java)<br>[py](./hanjoondev/programmers/P43236.py) | | Binary Search                                 |
 |  |  | nyh |[java](./NohYeongHun/programmers/P43236.java) | | Binary Search                                 |
 | [2.4.20_2.2](./docs/Problems.md#practice-242022) | [A01484](https://www.acmicpc.net/problem/1484) | hdev | [py](./hanjoondev/acmicpc/A01484.py) | [132ms](https://www.acmicpc.net/source/43268737) | Two Pointer                                   |
+|  |  | nyh | [py](./NohYeongHun/acmicpc/A01484.py) | [280ms](https://www.acmicpc.net/source/43384394) | Two Pointer                                   |
 | [2.4.20_2.3](./docs/Problems.md#practice-242023) | [P42886](https://programmers.co.kr/learn/courses/30/lessons/42886) | hdev | [py](./hanjoondev/programmers/P42886.py) | | Greedy                                        |
 | [2.4.20_2.4](./docs/Problems.md#practice-242024) | [A04095](https://www.acmicpc.net/problem/4095) | hdev | | |                                               |
 | [2.4.20_2.5](./docs/Problems.md#practice-242025) | [L01584](https://leetcode.com/problems/min-cost-to-connect-all-points/) | hdev | | |                                               |
