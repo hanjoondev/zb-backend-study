@@ -120,10 +120,15 @@
 | [2.4.07_1.4](./docs/Problems.md#practice-240714) | [L00015](https://leetcode.com/problems/3sum/) | hdev | [py](./hanjoondev/leetcode/L00015.py) | [37.65%](https://leetcode.com/submissions/detail/698774283/) | Two Pointer                                   |
 |  |  | nyh | [java](./NohYeongHun/leetcode/L00015.java) | [22.54%](https://leetcode.com/submissions/detail/700578454/) | Two Pointer                                   |
 | [2.4.09_1.1](./docs/Problems.md#practice-240911) | [L00055](https://leetcode.com/problems/jump-game/) | hdev | [py](./hanjoondev/leetcode/L00055.py) | [80.96%](https://leetcode.com/submissions/detail/698778274/) | Greedy                                        |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00055.java) | [86.36%](https://leetcode.com/submissions/detail/700645963/) | Greedy                                        |
 | [2.4.09_1.2](./docs/Problems.md#practice-240912) | [L00122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | hdev | [py](./hanjoondev/leetcode/L00122.py) | [73.19%](https://leetcode.com/submissions/detail/698790197/) | Greedy                                        |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00122.java) | [91.00%](https://leetcode.com/submissions/detail/700654751/) | Greedy                                        |
 | [2.4.09_1.3](./docs/Problems.md#practice-240913) | unknown | hdev | [py](./hanjoondev/unknown/U240913.py) | | Greedy                                        |
+|  |  | nyh | [java](./NohYeongHun/unknown/U240913.java) | | Greedy                                        |
 | [2.4.09_1.4](./docs/Problems.md#practice-240914) | [L00134](https://leetcode.com/problems/gas-station/) | hdev | [py](./hanjoondev/leetcode/L00134.py) | [67.96%](https://leetcode.com/submissions/detail/698863339/) | Greedy                                        |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00134.java) | [91.08%](https://leetcode.com/submissions/detail/700654751/) | Greedy                                        |
 | [2.4.09_1.5](./docs/Problems.md#practice-240915) | [L00670](https://leetcode.com/problems/maximum-swap/) | hdev | [py](./hanjoondev/leetcode/L00670.py) | [61.06%](https://leetcode.com/submissions/detail/698856150/) | Greedy                                        |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00670.java) | [77.32%](https://leetcode.com/submissions/detail/701221580/) | Greedy                                        |
 | [2.4.11_1.1](./docs/Problems.md#practice-241111) | [L00053](https://leetcode.com/problems/maximum-subarray/) | hdev | | |                                               |
 | [2.4.11_1.2](./docs/Problems.md#practice-241112) | [L00023](https://leetcode.com/problems/merge-k-sorted-lists/)| hdev | | |                                               |
 | [2.4.13_1.1](./docs/Problems.md#practice-241311) | [A01463](https://www.acmicpc.net/problem/1463) | hdev | | |                                               |
