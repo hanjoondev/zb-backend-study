@@ -281,11 +281,11 @@
 ## opt: greedy
 | Source  | Problem | Author | Solution | Submission | Type |
 | :-----: | :-----: | :----: | :------: | :--------: | :--: |
-| [A11047](https://www.acmicpc.net/problem/11047)| 동전 0 | hdev | | | |
-| [A01931](https://www.acmicpc.net/problem/1931) | 회의실 배정 | hdev | | | |
-| [A11399](https://www.acmicpc.net/problem/11399)| ATM | hdev | | | |
-| [A01541](https://www.acmicpc.net/problem/1541) | 잃어버린 괄호 | hdev | | | |
-| [A13305](https://www.acmicpc.net/problem/13305)| 주유소 | hdev | | | |
+| [A11047](https://www.acmicpc.net/problem/11047)| 동전 0 | hdev | [py](./hanjoondev/acmicpc/A11047.py) | [68ms](https://www.acmicpc.net/source/43458370) | greedy |
+| [A01931](https://www.acmicpc.net/problem/1931) | 회의실 배정 | hdev | [py](./hanjoondev/acmicpc/A01931.py) | [328ms](https://www.acmicpc.net/source/43459815) | greedy, min heap |
+| [A11399](https://www.acmicpc.net/problem/11399)| ATM | hdev | [py](./hanjoondev/acmicpc/A11399.py) | [68ms](https://www.acmicpc.net/source/43460987) | greedy |
+| [A01541](https://www.acmicpc.net/problem/1541) | 잃어버린 괄호 | hdev | [py](./hanjoondev/acmicpc/A01541.py) | [68ms](https://www.acmicpc.net/source/43467968) | greedy |
+| [A13305](https://www.acmicpc.net/problem/13305)| 주유소 | hdev | [py](./hanjoondev/acmicpc/A13305.py) | [140ms](https://www.acmicpc.net/source/43471216) | greedy |
 
 ## opt: divide and conquer
 | Source  | Problem | Author | Solution | Submission | Type |
