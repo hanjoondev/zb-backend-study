@@ -141,6 +141,8 @@
 | [2.4.15_1.2](./docs/Problems.md#practice-241512) | [A02023](https://www.acmicpc.net/problem/2023) | hdev | [py](./hanjoondev/acmicpc/A02023.py) | [88ms](https://www.acmicpc.net/source/42846520) | Queue                                         |
 |  |  | nyh | [py](./NohYeongHun/acmicpc/A02023.py) | [68ms](https://www.acmicpc.net/source/43730010) | BackTracking                                         |
 | [2.4.15_1.3](./docs/Problems.md#practice-241513) | [A19949](https://www.acmicpc.net/problem/19949) | hdev | [py](./hanjoondev/acmicpc/A19949.py) | [284ms](https://www.acmicpc.net/source/43019458) | DFS, Backtracking, Memoization                |
+|  |  | nyh | [py](./NohYeongHun/acmicpc/A19949.py) | [284ms](https://www.acmicpc.net/source/43731464) | Backtracking                |
+
 | [2.4.15_1.4](./docs/Problems.md#practice-241514) | [A16197](https://www.acmicpc.net/problem/16197) | hdev | [py](./hanjoondev/acmicpc/A16197.py) | [168ms](https://www.acmicpc.net/source/43006872) | DFS                                           |
 | [2.4.17_1.1](./docs/Problems.md#practice-241711) | [A01504](https://www.acmicpc.net/problem/1504) | hdev | | |                                               |
 | [2.4.17_1.2](./docs/Problems.md#practice-241712) | [A01865](https://www.acmicpc.net/problem/1865) | hdev | | |                                               |
