@@ -134,14 +134,17 @@
 | [2.4.11_1.2](./docs/Problems.md#practice-241112) | [L00023](https://leetcode.com/problems/merge-k-sorted-lists/)| hdev | | |                                               |
 |  |  | nyh | [java](./NohYeongHun/leetcode/L00023.java) |[54.84%](https://leetcode.com/submissions/detail/705411069/)|            PriorityQueue, LinkedList                                   |
 | [2.4.13_1.1](./docs/Problems.md#practice-241311) | [A01463](https://www.acmicpc.net/problem/1463) | hdev | [py](./hanjoondev/acmicpc/A01463.py) | [348ms](https://www.acmicpc.net/source/43626135) | DP                                            |
+|  |  | nyh | [py](./NohYeongHun/acmicpc/A01463.py) | [668ms](https://www.acmicpc.net/source/44004764) | DP                                            |
 | [2.4.13_1.2](./docs/Problems.md#practice-241312) | [L00674](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | hdev | [py](./hanjoondev/leetcode/L00674.py) | [75.43%](https://leetcode.com/submissions/detail/704287233/) | Greedy                                        |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00674.java) | [5.17%](https://leetcode.com/submissions/detail/711151985/) | DP                                        |
 | [2.4.13_1.3](./docs/Problems.md#practice-241313) | [A12865](https://www.acmicpc.net/problem/12865) | hdev | [py](./hanjoondev/acmicpc/A12865.py) | [2,988ms](https://www.acmicpc.net/source/42764820) | DP                                            |
+|  |  | nyh | [py](./NohYeongHun/acmicpc/A12865.py) | [4980ms](https://www.acmicpc.net/source/44007965) | DP                                            |
 | [2.4.15_1.1](./docs/Problems.md#practice-241511) | [A15649](https://www.acmicpc.net/problem/15649) | hdev | [py](./hanjoondev/acmicpc/A15649.py) | [224ms](https://www.acmicpc.net/source/42960158) | Permutation                                   |
 |  |  | nyh | [py](./NohYeongHun/acmicpc/A15649.py) | [208ms](https://www.acmicpc.net/source/39377700) | Permutation                                   |
 | [2.4.15_1.2](./docs/Problems.md#practice-241512) | [A02023](https://www.acmicpc.net/problem/2023) | hdev | [py](./hanjoondev/acmicpc/A02023.py) | [88ms](https://www.acmicpc.net/source/42846520) | Queue                                         |
 |  |  | nyh | [py](./NohYeongHun/acmicpc/A02023.py) | [68ms](https://www.acmicpc.net/source/43730010) | BackTracking                                         |
 | [2.4.15_1.3](./docs/Problems.md#practice-241513) | [A19949](https://www.acmicpc.net/problem/19949) | hdev | [py](./hanjoondev/acmicpc/A19949.py) | [284ms](https://www.acmicpc.net/source/43019458) | DFS, Backtracking, Memoization                |
-|  |  | nyh | [py](./NohYeongHun/acmicpc/A19949.py) | [284ms](https://www.acmicpc.net/source/43731464) | Backtracking                |
+|  |  | nyh | [py](./NohYeongHun/acmicpc/A19949.py) | [868ms](https://www.acmicpc.net/source/43731464) | Backtracking                |
 | [2.4.15_1.4](./docs/Problems.md#practice-241514) | [A16197](https://www.acmicpc.net/problem/16197) | hdev | [py](./hanjoondev/acmicpc/A16197.py) | [168ms](https://www.acmicpc.net/source/43006872) | DFS                                           |
 |  |  | nyh | [py](./NohYeongHun/acmicpc/A16197.py) | [1460ms](https://www.acmicpc.net/source/43782877) | DFS                                           |
 | [2.4.17_1.1](./docs/Problems.md#practice-241711) | [A01504](https://www.acmicpc.net/problem/1504) | hdev | | |                                               |
