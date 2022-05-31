@@ -136,6 +136,7 @@
 | [2.4.13_1.1](./docs/Problems.md#practice-241311) | [A01463](https://www.acmicpc.net/problem/1463) | hdev | [py](./hanjoondev/acmicpc/A01463.py) | [348ms](https://www.acmicpc.net/source/43626135) | DP                                            |
 |  |  | nyh | [py](./NohYeongHun/acmicpc/A01463.py) | [668ms](https://www.acmicpc.net/source/44004764) | DP                                            |
 | [2.4.13_1.2](./docs/Problems.md#practice-241312) | [L00674](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) | hdev | [py](./hanjoondev/leetcode/L00674.py) | [75.43%](https://leetcode.com/submissions/detail/704287233/) | Greedy                                        |
+|  |  | nyh | [java](./NohYeongHun/leetcode/L00674.java) | [5.17%](https://leetcode.com/submissions/detail/711151985/) | DP                                        |
 | [2.4.13_1.3](./docs/Problems.md#practice-241313) | [A12865](https://www.acmicpc.net/problem/12865) | hdev | [py](./hanjoondev/acmicpc/A12865.py) | [2,988ms](https://www.acmicpc.net/source/42764820) | DP                                            |
 | [2.4.15_1.1](./docs/Problems.md#practice-241511) | [A15649](https://www.acmicpc.net/problem/15649) | hdev | [py](./hanjoondev/acmicpc/A15649.py) | [224ms](https://www.acmicpc.net/source/42960158) | Permutation                                   |
 |  |  | nyh | [py](./NohYeongHun/acmicpc/A15649.py) | [208ms](https://www.acmicpc.net/source/39377700) | Permutation                                   |
